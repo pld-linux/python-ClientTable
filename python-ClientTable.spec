@@ -1,7 +1,7 @@
 %define 	module ClientTable
 
-Summary:	Python package providing a module for parsing HTML tables
-Summary(pl):	Pakiet zawieraj±cy modu³ do przetwarzania tabelek HTML
+Summary:	Python module for parsing HTML tables
+Summary(pl):	Modu³ Pythona do przetwarzania tabelek HTML
 Name:		python-%{module}
 Version:	0.0.1a
 Release:	0.1
@@ -38,14 +38,12 @@ python setup.py install \
 	--root=$RPM_BUILD_ROOT \
 	--optimize=2
 
-rm $RPM_BUILD_ROOT/%{py_sitescriptdir}/*.py
+rm $RPM_BUILD_ROOT%{py_sitescriptdir}/*.py
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-
+%doc COPYING ChangeLog README.html
 %{py_sitescriptdir}/*.py[co]
-
-%doc ChangeLog COPYING README.html README.txt
