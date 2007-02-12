@@ -1,7 +1,7 @@
 %define 	module	ClientTable
 
 Summary:	Python module for parsing HTML tables
-Summary(pl):	Modu³ Pythona do przetwarzania tabelek HTML
+Summary(pl.UTF-8):   ModuÅ‚ Pythona do przetwarzania tabelek HTML
 Name:		python-%{module}
 Version:	0.0.1a
 Release:	0.1
@@ -20,10 +20,10 @@ most useful when used in conjunction with other parsers (htmllib or
 HTMLParser, regular expressions, etc.), to divide up the parsing work
 between your own code and ClientTable.
 
-%description -l pl
-ClientTable to modu³ Pythona do przetwarzania tabelek HTML. Najlepiej
-sprawdza siê w po³±czeniu z innymi narzêdziami (jak htmllib lub
-HTMLParser, wyra¿enia regularne itp.).
+%description -l pl.UTF-8
+ClientTable to moduÅ‚ Pythona do przetwarzania tabelek HTML. Najlepiej
+sprawdza siÄ™ w poÅ‚Ä…czeniu z innymi narzÄ™dziami (jak htmllib lub
+HTMLParser, wyraÅ¼enia regularne itp.).
 
 %prep
 %setup -q -n %{module}-%{version}
