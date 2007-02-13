@@ -1,7 +1,7 @@
 %define 	module	ClientTable
 
 Summary:	Python module for parsing HTML tables
-Summary(pl.UTF-8):   Moduł Pythona do przetwarzania tabelek HTML
+Summary(pl.UTF-8):	Moduł Pythona do przetwarzania tabelek HTML
 Name:		python-%{module}
 Version:	0.0.1a
 Release:	0.1
