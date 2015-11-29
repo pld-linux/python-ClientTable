@@ -10,6 +10,7 @@ Group:		Development/Languages/Python
 Source0:	http://wwwsearch.sourceforge.net/%{module}/src/%{module}-%{version}.tar.gz
 # Source0-md5:	b69bb8aa2ab04ba8fe5e22ebade62191
 URL:		http://wwwsearch.sourceforge.net/ClientTable/
+BuildRequires:	rpmbuild(macros) >= 1.710
 Requires:	python-modules >= 2.2
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
